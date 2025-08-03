@@ -20,7 +20,7 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
           <ul className="menu menu-horizontal px-1">
             <li><Link href="/todos">Todos</Link></li>
             <li><Link href="/">Home</Link></li>
-            <li><button onClick={() => signOut()} className="btn btn-ghost">Logout</button></li>
+            <li><a onClick={() => signOut()}>SignOut</a></li>
           </ul>
         </div>
       </div>

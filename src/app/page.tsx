@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -7,7 +9,7 @@ export default function Home() {
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Elegant Landing Page</h1>
             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <button className="btn btn-primary">Get Started</button>
+            <Link href="/api/auth/signin" className="btn btn-primary">Sign Up</Link>
           </div>
         </div>
       </div>
@@ -46,7 +48,7 @@ export default function Home() {
           <div className="max-w-md">
             <h1 className="text-4xl font-bold">Ready to Dive In?</h1>
             <p className="py-6">Join us today and start your journey towards success. Its free to get started!</p>
-            <button className="btn btn-primary">Sign Up Now</button>
+            
           </div>
         </div>
       </div>
